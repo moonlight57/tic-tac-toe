@@ -27,9 +27,7 @@ export default function Player({ initialName, symbol }) {
           {editablePlayerName}
           <span className="player-symbol">{symbol}</span>
         </span>
-        <button onClick={handleEditClick}>
-          {isEditing ? "Save Me" : "Edit"}
-        </button>
+        <button onClick={handleEditClick}>{isEditing ? "Save" : "Edit"}</button>
       </li>
     </>
   );

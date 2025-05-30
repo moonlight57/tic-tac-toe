@@ -1,7 +1,7 @@
 import Player from "./Player.jsx";
 import GameBoard from "./GameBoard.jsx";
 
-function App() {
+export default function App() {
   return (
     <main>
       <div id="game-container">
@@ -11,9 +11,6 @@ function App() {
         </ol>
         <GameBoard />
       </div>
-      <GameBoard />
     </main>
   );
 }
-
-export default App;
